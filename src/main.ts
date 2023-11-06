@@ -88,7 +88,7 @@ function setSettings(max: number) {
     maxMultiplier = 2;
     gameSpeed = 100;
   }
-  if (max > 1000) {
+  if (max > 700) {
     gameSpeed = 50;
     maxMultiplier = 2;
     ballSize = 0.1;
