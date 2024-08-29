@@ -47,14 +47,14 @@ let audio: HTMLAudioElement = new Audio('/epic-cinematic-trailer-113981.mp3');
 
 //functions
 async function loader() {
-  await PIXI.Assets.load('/ArcadeClassic.ttf');
+  await PIXI.Assets.load('/The 2K12.ttf');
   await PIXI.Assets.load('/SSIS__logo.png');
   sheet = await PIXI.Assets.load('/sprites.json');
   await PIXI.Assets.load('/displacement_map_repeat.jpg');
   PIXI.Assets.add('introBackground', '/SSIS__logo.png');
   await PIXI.Assets.load('introBackground');
   PIXI.BitmapFont.from('myFont', {
-    fontFamily: 'ARCADECLASSIC',
+    fontFamily: 'The 2K12',
     fontSize: 200,
     fill: 0xffffff,
     align: 'center',
