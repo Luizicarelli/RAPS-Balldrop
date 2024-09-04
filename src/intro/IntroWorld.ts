@@ -86,7 +86,7 @@ export default class IntroWorld {
 
   public async createDisplacementSprite() {
     // await PIXI.Assets.cache.get('introBackground');
-    let bg = await PIXI.Assets.load('/SSIS__logo.png');
+    let bg = await PIXI.Assets.load('/SABRESLogoWhite.png');
 
     const backgroundSprite = new PIXI.Sprite(bg);
     backgroundSprite.eventMode = 'dynamic';
