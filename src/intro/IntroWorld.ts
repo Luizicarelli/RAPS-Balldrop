@@ -145,7 +145,7 @@ export default class IntroWorld {
     let currentTime = 0;
 
     this.app.ticker.add(() => {
-      backgroundSprite.rotation += 0.0005;
+      backgroundSprite.rotation += 0.000;
 
       displacementSprite.x += 0.5;
       displacementSprite.y += 0.5;
